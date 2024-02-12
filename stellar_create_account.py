@@ -1,9 +1,9 @@
 import requests
 
-first_account = "GCYY2S223RCBAXJHFQL72AU6AC6B2JOA7VEBKFRIK2Z4W42QPOST4YFF"
-second_account = "GB6MQYFGYIX6UWE3VRNBOIZORBQRVBVHQZTIZD4PDGCSCNDYIBAYPXIY"
+first_account = "GCA6XXWLDPBRYYBDXEEGBIBD2DAGRRVQQDMADACL2YDUXUUQENJJILEQ"
+second_account = "GCZQSQ2OWK3UTC73X4HC55ELK4RH2WKCOFM5KJ27BFJ3UEKPYGBIQNOU"
 
-public_key = second_account
+public_key = first_account
 
 
 response = requests.get(f"https://friendbot.stellar.org?addr={public_key}")
